@@ -73,7 +73,7 @@ for batch = 1 : num_ddm
     time_per_batch = time_past/batch;
     time_left = (num_ddm-batch)*time_per_batch;
     time_left_h = floor(time_left/3600);
-    time_left_m = floor((time_left - time_left_h*60)/60);
+    time_left_m = floor((time_left - time_left_h*3600)/60);
     time_left_s = floor(time_left - time_left_h*3600 - time_left_m*60);
     msg = sprintf('Processing data: %i%% completed - %i:%i:%i remaining', floor(batch/num_ddm*100), time_left_h, time_left_m, time_left_s);
     waitbar(batch/num_ddm, wb, msg)

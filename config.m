@@ -4,12 +4,12 @@
 
 %% Input parameteres
 
-time_to_process = 60;   % total time to process
-caseID = 0;     % case ID number listed in case_selector.m
+time_to_process = 5;   % total time to process
+caseID = 6;     % case ID number listed in case_selector.m
 
 % Processing and delay-Doppler plane parameters
 Ti = 1e-3;      % coherent integration time [secs]
-Tnc = 0.5;        % non-coherent integration time [secs]
+Tnc = 0.1;        % non-coherent integration time [secs]
 dec_ratio = 4;  % decimation ratio
 Doppler_resolution = 500;   % DDM Doppler bin resolution [Hz]
 Doppler_spread = 2e3;       % DDM Maximum Doppler deviation[Hz]
