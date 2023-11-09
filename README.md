@@ -1,6 +1,6 @@
 # CYGNSS GNSS-R Raw Intermediate Frequency Data Processing
 
-Set of Matlab scripts to process CYGNSS Level 1 Raw Intermediate Frequency 
+Set of Matlab scripts to process GPS L1 C/A reflected signals from CYGNSS Level 1 Raw Intermediate Frequency 
 Data Records.
 
 ## Description
